@@ -426,12 +426,23 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   transform: translate(-50%);
   margin-bottom: 80px;
+  padding-top: 80px;
 }
 
-.portfolio h1 {
+.portfolio-header {
   position: absolute;
   top: 0;
-  display: none;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--violet);
+  background: wheat;
+}
+
+.portfolio-header:hover::before {
+  width: 50vw;
+  max-width: 700px;
 }
 
 .project-tile {
