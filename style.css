@@ -395,7 +395,8 @@ body::-webkit-scrollbar-thumb {
   transform: translateZ(3em);
 }
 
-.card:hover,
+.top-card:hover,
+.bottom-card:hover,
 .center-card:hover ~ .bottom-card,
 .center-card:hover ~ .top-card {
   transform: none;
