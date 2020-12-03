@@ -83,14 +83,14 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 0;
   background-color: var(--bg-clr);
-  opacity: 0;
+  /* opacity: 0; */
   z-index: 10;
   transition: opacity 250ms ease;
 }
 
-.navbar:hover {
+/* .navbar:hover {
   opacity: 1;
-}
+} */
 
 .navbar ul {
   list-style: none;
